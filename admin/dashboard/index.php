@@ -1,4 +1,5 @@
 <?php
+include "../conn.php";
 include "../theme/header.php";
 ?>
         <div class="breadcrumbs">
@@ -25,4 +26,7 @@ include "../theme/header.php";
 
 
         </div> <!-- .content -->
-    
+
+<?php
+include "../theme/footer.php";
+?> 

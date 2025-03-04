@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Admin Template</title>
+   <title>FrostBite Admin</title>
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -40,14 +40,17 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                 <a class="navbar-brand" href="./">Admin Panel</a>
-                <a class="navbar-brand hidden" href="./">Admin Panel</a>
+                 <a class="navbar-brand" href="./">FrostBite Admin</a>
+                <a class="navbar-brand hidden" href="./">FrostBite Admin</a>
             </div>
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                        <a href="../dashboard/index.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    </li>
+                    <li>
+                        <a href="../FoodCategory/index.php"> <i class="menu-icon fa fa-dashboard"></i>Add/Edit Categories</a>
                     </li>
 
 

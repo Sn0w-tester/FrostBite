@@ -50,7 +50,10 @@
                         <a href="../dashboard/index.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
                     <li>
-                        <a href="../FoodCategory/index.php"> <i class="menu-icon fa fa-dashboard"></i>Add/Edit Categories</a>
+                        <a href="../FoodCategories/index.php"> <i class="menu-icon fa fa-dashboard"></i>Add/Edit Categories</a>
+                    </li>
+                    <li>
+                        <a href="../FoodIngredients/index.php"> <i class="menu-icon fa fa-dashboard"></i>Add/Edit Ingredients</a>
                     </li>
 
 

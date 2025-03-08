@@ -55,7 +55,13 @@
                     <li>
                         <a href="../FoodIngredients/index.php"> <i class="menu-icon fa fa-dashboard"></i>Add/Edit Ingredients</a>
                     </li>
-
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Foods</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-th"></i><a href="../Food/add.php">Add Food</a></li>
+                            <li><i class="menu-icon fa fa-th"></i><a href="../Food/display.php">Display Food</a></li>
+                        </ul>
+                    </li>
 
                 </ul>
             </div><!-- /.navbar-collapse -->

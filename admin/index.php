@@ -73,7 +73,7 @@ session_start(); // Bắt đầu session để quản lý trạng thái đăng n
             $_SESSION['admin'] = $username; // Lưu thông tin admin vào session
             ?>
             <script type="text/javascript">
-                window.location = "dashboard.php"; // Chuyển hướng đến trang dashboard
+                window.location = "dashboard"; // Chuyển hướng đến trang dashboard
             </script>
             <?php
         } else {

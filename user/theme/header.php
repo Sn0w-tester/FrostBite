@@ -46,19 +46,19 @@
 						<ul class="info-list">
 
 							<li><a href="mailto:info@abc.co.in" style="color: black"><span class="icon far fa-envelope"></span>
-									info@abc.co.in</a></li>
+									ndtan2101102@student.ctuet.edu.vn</a></li>
 						</ul>
 					</div>
 					<div class="top-right clearfix">
 
 						<!--Social Box-->
 						<ul class="social-box">
-							<li><a href="#" style="color: black"><span class="fa fa-user-alt"></span></a></li>
+							<li><a href="login.php" style="color: black"><span class="fa fa-user-alt"></span></a></li>
 						</ul>
 						<div class="option-list">
 							<!-- Cart Button -->
 							<div class="cart-btn">
-								<a href="shoping-cart.html" class="icon flaticon-shopping-cart" style="color: black"><span
+								<a href="view_cart.php" class="icon flaticon-shopping-cart" style="color: black"><span
 										class="total-cart" style="background-color: #a40301;color:white">3</span></a>
 							</div>
 							<!-- Search Btn -->
@@ -126,7 +126,7 @@
 							<div class="outer-box">
 								<div class="order">
 									Order Now
-									<span><a href="tel:1800-123-4567">1800 123 4567</a></span>
+									<span><a href="tel:1800-123-4567">0988 441 814</a></span>
 								</div>
 							</div>
 
@@ -141,7 +141,7 @@
 				<div class="auto-container clearfix">
 					<!--Logo-->
 					<div class="logo pull-left">
-						<a href="index-2.html" class="img-responsive"><img src="../assets/images/logo-02.png" alt=""
+						<a href="index-2.html" class="img-responsive"><img src="assets/images/logo-02.png" alt=""
 								title="" height="90" width="90" style="margin-top: -10px;"></a>
 					</div>
 

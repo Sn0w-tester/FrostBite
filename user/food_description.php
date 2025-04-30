@@ -135,6 +135,7 @@ while ($row = mysqli_fetch_array($res)) {
             if (xmlhttp1.readyState == 4 && xmlhttp1.status == 200)
             {
                 alert(xmlhttp1.responseText);
+                window.location="view_cart.php";
             }
         };
         xmlhttp1.open("GET","add_to_cart.php?id="+id+"&qty="+qty,true);

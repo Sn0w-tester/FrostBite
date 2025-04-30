@@ -7,7 +7,7 @@ include "../admin/conn.php";
 <title>FrostBite</title>
 
 <!-- Products Section -->
-<section class="products-section">
+<section class="products-section" id="product">
 	<div class="auto-container">
 
 		<!-- Sec Title -->

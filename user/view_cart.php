@@ -139,7 +139,7 @@ if (load_cart_data() > 0) {
                                 <li>
                                     <h3>Payment Type</h3>
                                 </li>
-                                <li class="clearfix total"><input type="radio" name="r1" value="cod"><span class="col"
+                                <li class="clearfix total"><input type="radio" name="r1" value="cod" checked><span class="col"
                                         style="text-align: left">Cash On Delivery (COD)</li>
                                 <li class="clearfix total"><input type="radio" name="r1" value="momo"><span class="col"
                                         style="text-align: left">Momo banking</li>

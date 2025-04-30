@@ -21,7 +21,7 @@
 								<p>If you’re having a meeting, working late at night and need an extra push.</p>
 								<p>Let us know and we will be there</p>
 							</div>
-							<a href="shop-single.html" class="theme-btn btn-style-three"><span class="txt">Order
+							<a href="#product" class="theme-btn btn-style-three"><span class="txt">Order
 									Now</span></a>
 						</div>
 					</div>

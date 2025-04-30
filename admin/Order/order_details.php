@@ -151,10 +151,10 @@ include "../theme/header.php";
                                             </td>
                                             <td><?php echo htmlspecialchars($row['food_name']); ?></td>
                                             <td><?php echo htmlspecialchars($row['food_category']); ?></td>
-                                            <td><?php echo number_format((float)$row['food_original_price'], 0, '.', ','); ?> VNĐ</td>
-                                            <td><?php echo number_format((float)$row['food_discount_price'], 0, '.', ','); ?> VNĐ</td>
+                                            <td><?php echo number_format((float)$row['food_original_price'], 0, '.', ','); ?> USD</td>
+                                            <td><?php echo number_format((float)$row['food_discount_price'], 0, '.', ','); ?> USD</td>
                                             <td><?php echo (int)$row['food_qty']; ?></td>
-                                            <td><?php echo number_format($total, 0, '.', ','); ?> VNĐ</td>
+                                            <td><?php echo number_format($total, 0, '.', ','); ?> USD</td>
                                         </tr>
                                     <?php
                                         $srno++;
@@ -164,7 +164,7 @@ include "../theme/header.php";
                                 <tfoot>
                                     <tr>
                                         <td colspan="7" class="text-right"><strong>Grand Total:</strong></td>
-                                        <td><strong><?php echo number_format($grand_total, 0, '.', ','); ?> VNĐ</strong></td>
+                                        <td><strong><?php echo number_format($grand_total, 0, '.', ','); ?> USD</strong></td>
                                     </tr>
                                 </tfoot>
                             </table>

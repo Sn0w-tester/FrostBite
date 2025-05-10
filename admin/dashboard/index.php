@@ -144,15 +144,17 @@ $food_quantities = array_column($top_foods_data, 'total_qty');
                 </div>
                 <div class="card-body">
                     <h4><?php echo $status_counts['Pending']; ?></h4>
+                    <br>
                     <a href="../Order" class="btn btn-sm btn-primary">Manage</a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-header bg-success text-white">
-                    Delivered Orders
+                    Orders Waiting For Delivered
                 </div>
                 <div class="card-body">
-                    <h4><?php echo $status_counts['Delivered']; ?></h4>
+                    <h4><?php echo $status_counts['Preparing Order']; ?></h4>
+                    <br>
                     <a href="../Order/delivery.php" class="btn btn-sm btn-primary">Manage</a>
                 </div>
             </div>

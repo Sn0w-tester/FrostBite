@@ -144,7 +144,7 @@ $stmt->close();
                                         <td><?php echo htmlspecialchars($row['order_address']); ?></td>
                                         <td><?php echo htmlspecialchars($row['order_type']); ?></td>
                                         <td>
-                                            <span class="badge <?php echo $row['order_status'] == 'Delivered' ? 'badge-success' : 'badge-info'; ?>">
+                                            <span class="badge <?php echo $row['order_status'] == 'Delivered' ? 'badge-success' : ($row['order_status'] == 'Preparing Order' ? 'badge-info' : 'badge-danger'); ?>">
                                                 <?php echo htmlspecialchars($row['order_status']); ?>
                                             </span>
                                         </td>

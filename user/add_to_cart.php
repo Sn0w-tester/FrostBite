@@ -30,10 +30,10 @@ if ($check_available == 0) //if this is not available in cart
         if (isset($_SESSION['cart'])) {
             $b = array("img1" => $food_img, "nm" => $food_name, "price" => $food_price, "qty_total" => $qty_get, "tb_id" => $tb_id);
             array_push($_SESSION['cart'], $b);
-            echo "Product Successfully Added To Cart01";
+            echo "Product Successfully Added To Cart";
         } else {
             $_SESSION['cart'] = array(array("img1" => $food_img, "nm" => $food_name, "price" => $food_price, "qty_total" => $qty_get, "tb_id" => $tb_id));
-            echo "Product Successfully Added To Cart02";
+            echo "Product Successfully Added To Cart";
         }
 } else { //if this product is available in cart
     $qty_exist_in_cart_for_this_product = check_the_qty_single($tb_id); //this is for checking how many product is in cart for this product
@@ -43,10 +43,10 @@ if ($check_available == 0) //if this is not available in cart
             $check_product_no_session = check_product_no_session_single($tb_id); //this is for get this product session id so we can update it.
             $b = array("img1" => $food_img, "nm" => $food_name, "price" => $food_price, "qty_total" => $qty_get, "tb_id" => $tb_id);
             $_SESSION['cart'][$check_product_no_session] = $b;
-            echo "Product Successfully Added To Cart044";
+            echo "Product Successfully Added To Cart";
         } else {
             $_SESSION['cart'] = array(array("img1" => $food_img, "nm" => $food_name, "price" => $food_price, "qty_total" => $qty_get, "tb_id" => $tb_id));
-            echo "Product Successfully Added To Cart05";
+            echo "Product Successfully Added To Cart";
         }
 }
 

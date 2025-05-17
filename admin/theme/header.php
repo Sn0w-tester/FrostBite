@@ -50,22 +50,22 @@
                         <a href="../dashboard/index.php"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
                     <li>
-                        <a href="../FoodCategories/index.php"> <i class="menu-icon fa fa-folder"></i>Add/Edit Categories</a>
+                        <a href="../FoodCategories/index.php"> <i class="menu-icon fa fa-folder"></i>Category Management</a>
                     </li>
                     <li>
-                        <a href="../FoodIngredients/index.php"> <i class="menu-icon fa fa-snowflake-o"></i>Add/Edit Ingredients</a>
+                        <a href="../FoodIngredients/index.php"> <i class="menu-icon fa fa-snowflake-o"></i>Ingredient Management</a>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Foods</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Food Management</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-plus-square"></i><a href="../Food/add.php">Add Food</a></li>
                             <li><i class="menu-icon fa fa-navicon"></i><a href="../Food/display.php">Display Food</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Manager Order</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Order Management</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-shopping-basket"></i><a href="../Order">The Order</a></li>
+                            <li><i class="menu-icon fa fa-shopping-basket"></i><a href="../Order">Processing</a></li>
                             <li><i class="menu-icon fa fa-map-pin"></i><a href="../Order/delivery.php">Delivery</a></li>
                         </ul>
                     </li>
@@ -73,7 +73,7 @@
                         <a href="../Revenue"> <i class="menu-icon fa fa-money"></i>Revenue</a>
                     </li>
                     <li>
-                        <a href="../Gallery"> <i class="menu-icon fa fa-image"></i>Gallery</a>
+                        <a href="../Gallery"> <i class="menu-icon fa fa-image"></i>Image Gallery</a>
                     </li>
                     <li>
                         <a href="../Contact_message"> <i class="menu-icon fa fa-inbox"></i>Message</a>

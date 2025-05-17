@@ -124,7 +124,7 @@ $result = mysqli_query($link, "SELECT id, order_number, order_date, order_time, 
                     </div>
                     <?php if (mysqli_num_rows($result) == 0): ?>
                         <div class="alert alert-info text-center">
-                            Have no order now
+                            Have no order now!
                         </div>
                     <?php endif; ?>
                 </div>

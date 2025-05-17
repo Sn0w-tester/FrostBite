@@ -177,7 +177,7 @@ $stmt->close();
 
                                 <div>
                                     <button type="submit" class="btn btn-lg btn-info btn-block" name="submit1">
-                                        Submit
+                                        Update
                                     </button>
                                 </div>
                             </form>
